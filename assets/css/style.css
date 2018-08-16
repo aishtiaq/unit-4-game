@@ -1,0 +1,13 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+#compGuess {
+    font-size: 34px;
+}
+body {
+    background-image: url('../images/bg.png');
+}
+.jumbotron {
+    background-image: url('../images/old_map.png');
+}
