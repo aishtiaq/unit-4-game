@@ -8,8 +8,6 @@ var pinkVal=generateVal();
 
 var gameNum=randomIntFromInterval(19,120);
 
-console.log("game number is "+gameNum);
-console.log("aquaVal "+aquaVal);
 
 $(document).ready(function() {
     
@@ -33,7 +31,7 @@ $(document).ready(function() {
 function checkGame(val) {
     score = score+val;
     $("#score").html(score);
-    console.log("score is "+score);
+    
     if (score === gameNum) {
         messages("You win!");
         wins++;
